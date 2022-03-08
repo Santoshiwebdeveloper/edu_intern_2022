@@ -1,0 +1,136 @@
+<html>
+   <head>
+      <title>Home Page</title>
+      <link rel="stylesheet" href="listing.css"/>
+   </head>
+   <body>
+      <header id="header">
+         <div id="icon">
+            <h1>Xomato</h1>
+         </div>
+         <div id="social">
+            <a href="https://www.facebook.com/" target="_blank">
+            <img src="https://i.ibb.co/dtzG625/facebook.png" alt="fb" class="slogo"/>
+            </a>
+            <a href="https://www.instagram.com/" target="_blank">
+            <img src="https://i.ibb.co/19H5LvT/insta.png" alt="fb" class="slogo"/>
+            </a>
+            <a href="https://www.youtube.com/" target="_blank">
+            <img src="https://i.ibb.co/w07K2Vn/youtube1.png" alt="fb" class="slogo"/>
+            </a>
+         </div>
+      </header>
+      <p class="headingText">Breakfast Places in Mumbai</p>
+      <div id="content">
+         <div id="filterDiv">
+            <div>
+               <span class="headingFilter">Filter</span>
+               <div>
+                  <span class="location">Select Location</span>
+                  <div>
+                     <select id="locationselect">
+                        <option>Select Location</option>
+                        <option>Mumbai</option>
+                        <option>Delhi</option>
+                        <option>Hyderbad</option>
+                     </select>
+                  </div>
+               </div>
+               <div>
+                  <span class="subHeding">Cuisine Filter</span>
+                  <ul id="filter1">
+                     <li><input type="checkbox" name="Cusinefilter1" value="All"/><label> All</label></li>
+                     <li><input type="checkbox" name="Cusinefilter2" value="North Indian"/> <label> North Indian</label></li>
+                     <li><input type="checkbox" name="Cusinefilter3" value="South Indian"/> <label> South Indian </label></li>
+                     <li> <input type="checkbox" name="Cusinefilter4" value="Chinese"/> <label> Chinese </label></li>
+                     <li><input type="checkbox" name="Cusinefilter5" value="Fast Food"/> <label> Fast Food </label></li>
+                     <li><input type="checkbox" name="Cusinefilter6" value="Street Food"/> <label> Street Food</label></li>
+                  </ul>
+               </div>
+            </div>
+            <div>
+               <span class="secondheadingFilter">Cost For Two</span>
+               <ul id="filter1">
+                  <li><input type="radio" name="Costfilter" value="All"/><label> All </label></li>
+                  <li><input type="radio" name="Costfilter" value="100-300"/><label> 100-300 </label></li>
+                  <li><input type="radio" name="Costfilter" value="301-500"/><label> 301-500 </label></li>
+                  <li> <input type="radio" name="Costfilter" value="501-700"/><label> 501-700 </label></li>
+                  <li><input type="radio" name="Costfilter" value="701-900"/><label> 701-900 </label></li>
+                  <li><input type="radio" name="Costfilter" value="901-1500"/><label> 901-1500 </label></li>
+               </ul>
+            </div>
+            <div>
+               <span class="thirdheadingFilter">Sort</span>
+               <ul id="filter3">
+                  <li><input type="radio" name="sortfilter" value="Price low to high"/> <label> Price low to high</label></li>
+                  <li><input type="radio" name="sortfilter" value="Price high to low"/><label> Price high to low </label></li>
+               </ul>
+            </div>
+         </div>
+         <div id="contentDiv">
+            <div class="restarents">
+               <img src="images/some.jpg" class="restarentimg" /><span id="mainrestarent">The Big Chilli Cakery</span>
+               <span id="restaurentlocation">Fort</span><span id="reataurentadres">Shop1,Plot D,Samruddhi Complex......</span>
+               <hr>
+               <div>
+                  <table class="detailsofrestarent">
+                     <tr>
+                        <th>CUISINES</th>
+                        <td>Bakery</td>
+                     </tr>
+                     <tr>
+                        <th>COST FOR TWO</th>
+                        <td>&#8377;700</td>
+                     </tr>
+                  </table>
+               </div>
+            </div>
+            <div class="restarents">
+               <img src="images/image1.png" class="restarentimg" /><span id="mainrestarent">The Bake Shop</span>
+               <span id="restaurentlocation">Fort</span><span id="reataurentadres">Shop1,Plot D,Samruddhi Complex......</span>
+               <hr>
+               <div>
+                  <table class="detailsofrestarent">
+                     <tr >
+                        <th>CUISINES</th>
+                        <td>Bakery</td>
+                     </tr>
+                     <tr>
+                        <th>COST FOR TWO</th>
+                        <td>&#8377;700</td>
+                     </tr>
+                  </table>
+               </div>
+            </div>
+            <div class="center">
+               <div class="pagination">
+                  <a href="#">&laquo;</a>
+                  <a href="#" class="active">1</a>
+                  <a href="#">2</a>
+                  <a href="#">3</a>
+                  <a href="#">4</a>
+                  <a href="#">5</a>
+                  <a href="#">6</a>
+                  <a href="#">&raquo;</a>
+               </div>
+            </div>
+         </div>
+      </div>
+      <footer id="footer">
+         <p id="footText">&copy; Developer Funnel</p>
+         <hr/>
+         <div class="footDiv">
+            <p>Contact Us</p>
+            <p>About Us</p>
+         </div>
+         <div class="footDiv">
+            <p>Contact Us</p>
+            <p>About Us</p>
+         </div>
+         <div class="footDiv noBorder">
+            <p>Contact Us</p>
+            <p>About Us</p>
+         </div>
+      </footer>
+   </body>
+</html>

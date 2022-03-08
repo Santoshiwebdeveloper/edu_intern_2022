@@ -1,0 +1,184 @@
+body{
+    margin:auto
+    }
+    a{
+    text-decoration:none
+    }
+    .headingFilter{
+    font-size:30px;
+    color:#e28b62;
+    display:block;
+    font-weight:bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 35%;
+    }
+    .subHeding{
+    font-size:20px;
+    color:gray;
+    display:block;
+    line-height: 3;
+    margin-left: 43;
+    margin-bottom: -19px;
+    }
+    .location{
+    font-size:20px;
+    color:gray;
+    display:block;
+    line-height: 3;
+    margin-left: 43;
+    margin-bottom: -19px; 
+    }
+    #locationselect{
+    font-size:20px;
+    color:gray;
+    display:block;
+    line-height: 3;
+    margin-left: 43;
+    margin-bottom:10px;
+    margin-top: 10px;
+    }
+    .secondheadingFilter{
+    font-size:20px;
+    color:gray;
+    display:block;
+    line-height: 3;
+    margin-left: 43;
+    margin-bottom:-19px;
+    }
+    .thirdheadingFilter{
+    font-size:20px;
+    color:gray;
+    display:block;
+    line-height: 3;
+    margin-left: 43;
+    margin-bottom:-19px;
+    }
+    #filter1{
+    list-style-type: none;
+    }
+    #filter2{
+    list-style-type: none;
+    }
+    #filter3{
+    list-style-type: none;
+    }
+    /*footer CSS*/
+    #header{
+    height:60px;
+    background-color:#e28b62
+    }
+    #icon{
+    float: left;
+    margin-left:1%;
+    margin-top:-1%
+    }
+    #social{
+    float: right; 
+    }
+    .slogo{
+    height:50px;
+    width:50px;
+    }
+    .headingText{
+    margin-left: 10%;
+    font-size:30px;
+    font-weight: bold;
+    }
+    #content{
+    display: inline-block;
+    width:80%;
+    margin-left:10%
+    }
+    #filterDiv{
+    width:21%;
+    float: left;
+    box-shadow: 5px 0px 20px gray;
+    }
+    #contentDiv{
+    height:700px;
+    width:77%;
+    margin-left: 2%;
+    float: left;
+    }
+    .center {
+    margin-left: 100px;
+    }
+    .pagination {
+    display: inline-block;
+    }
+    .pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+    margin: 0 4px;
+    border-radius: 5px;
+    }
+    .pagination a.active {
+    background-color: #e28b62;
+    color: white;
+    border: 1px solid #e28b62;
+    }
+    .pagination a:hover:not(.active) {background-color: #ddd;}
+    /* /content */
+    .restarents{
+    width: 630px;
+    margin-bottom: 30px;
+    box-shadow: 10px 0px 10px grey;
+    }
+    .restarentimg{
+    width: 200px;
+    border-radius: 35px;
+    padding: 20px;
+    }
+    #mainrestarent{
+    font-size: 30px;
+    color: black;
+    display: block;
+    margin-left:18%;
+    margin-top: -140;
+    position: absolute;
+    }
+    #restaurentlocation{
+    font-size: 20px;
+    color: black;
+    display: block;
+    margin-left:18%;
+    margin-top: -90;
+    position: absolute;
+    }
+    #reataurentadres{
+    font-size: 18px;
+    color:gray;
+    display: block;
+    margin-left:18%;
+    margin-top: -53;
+    position: absolute;
+    }
+    .detailsofrestarent{
+    width:300;
+    margin-left: 30px;
+    text-align: left;
+    }
+    /*footer CSS*/
+    #footer{
+    height:120px;
+    width:100%;
+    margin-top: 5%;
+    background-color:#e28b62
+    }
+    #footText{
+    text-align: center;
+    }
+    .footDiv{
+    height:70px;
+    width:33%;
+    float: left;
+    border-right: 2px solid black;
+    text-align: center;
+    }
+    .noBorder{
+    border:none 
+    }
