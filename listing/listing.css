@@ -4,9 +4,14 @@ body{
     a{
     text-decoration:none
     }
+    a {color:#CE0505;}         /* Unvisited link  */
+    a:visited {color:#CE0505;} /* Visited link    */
+    a:hover {color:#CE0505;}   /* Mouse over link */
+    a:active {color:#CE0505;}  /* Selected link   */
+
     .headingFilter{
     font-size:30px;
-    color:#e28b62;
+    color:#192F60;
     display:block;
     font-weight:bold;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -14,15 +19,34 @@ body{
     }
     .subHeding{
     font-size:20px;
-    color:gray;
+    color:#192F60;
     display:block;
-    line-height: 3;
+    line-height: 4;
     margin-left: 43;
     margin-bottom: -19px;
     }
+    .navbar-brand{
+        padding:0px;
+    }
+    .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+        background-color: #ce0505;
+    }
+    .navbar-inverse .navbar-toggle {
+        border-color: #fff;
+    }
+    .navbar-inverse {
+        background-color: #ce0505;
+        border-color: #ffffff;
+    }
+    .navbar-inverse .navbar-nav>li>a {
+        color: #ffffff;
+    }
+    .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+        border-color: #ffffff;
+    }
     .location{
     font-size:20px;
-    color:gray;
+    color:#192F60;
     display:block;
     line-height: 3;
     margin-left: 43;
@@ -39,17 +63,17 @@ body{
     }
     .secondheadingFilter{
     font-size:20px;
-    color:gray;
+    color:#192F60;
     display:block;
-    line-height: 3;
+    line-height: 4;
     margin-left: 43;
     margin-bottom:-19px;
     }
     .thirdheadingFilter{
     font-size:20px;
-    color:gray;
+    color:#192F60;
     display:block;
-    line-height: 3;
+    line-height: 4;
     margin-left: 43;
     margin-bottom:-19px;
     }
@@ -62,43 +86,67 @@ body{
     #filter3{
     list-style-type: none;
     }
-    /*footer CSS*/
+    /*header CSS*/
     #header{
-    height:60px;
-    background-color:#e28b62
+    height:55px;
+    background-color:#CE0505;
     }
-    #icon{
-    float: left;
-    margin-left:1%;
-    margin-top:-1%
+    .header-logo{
+        display: inline-block;
+        width: 52px;
+        height: 52px;
+        background-color: #ffffff;
+        border-radius: 50%;
+        font-size: 40px;
+        margin-top:0.1%;
+        color: #eb2929 ;
+        margin-left: 3%;
+        text-align: center;
     }
-    #social{
+    #account{
     float: right; 
+    margin-top:0.4%;
     }
-    .slogo{
-    height:50px;
-    width:50px;
+    .login{
+        display: inline-block;
+        font-size: 20px;
+        font-weight: 500;
+        text-align: left;
+        color: #ffffff;
     }
+    
+    .account{
+        display: inline-block;
+        font-size: 18px;
+        margin: 10px 10px 0px 5px ;
+        color: #ffffff;
+        border: solid 1px #ffffff;
+        padding: 3px 3px 3px 10px;
+    }
+    /* filter section */
     .headingText{
     margin-left: 10%;
     font-size:30px;
-    font-weight: bold;
+    font-weight:bold;
+    color:#192F60;
     }
     #content{
     display: inline-block;
     width:80%;
     margin-left:10%
     }
+    #content1{
+        display: inline-block;
+        width:80%;
+     }
     #filterDiv{
-    width:21%;
-    float: left;
-    box-shadow: 5px 0px 20px gray;
+    width:auto;
+    box-shadow: 0px 3px 6px #00000029;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
     }
     #contentDiv{
-    height:700px;
-    width:77%;
+    width:auto;
     margin-left: 2%;
-    float: left;
     }
     .center {
     margin-left: 100px;
@@ -117,66 +165,69 @@ body{
     border-radius: 5px;
     }
     .pagination a.active {
-    background-color: #e28b62;
+    background-color: #ce0505;
     color: white;
-    border: 1px solid #e28b62;
+    border: 1px solid #ce0505;
     }
     .pagination a:hover:not(.active) {background-color: #ddd;}
     /* /content */
-    .restarents{
-    width: 630px;
+    #restarents{
+    width: auto;
     margin-bottom: 30px;
-    box-shadow: 10px 0px 10px grey;
+    box-shadow:0px 3px 6px #00000029;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
     }
     .restarentimg{
     width: 200px;
     border-radius: 35px;
-    padding: 20px;
+    padding: 8px;
     }
     #mainrestarent{
-    font-size: 30px;
+    font-size: 25px;
     color: black;
     display: block;
-    margin-left:18%;
-    margin-top: -140;
-    position: absolute;
+    margin-left:1%;
+    margin-top:9px;
+    
     }
     #restaurentlocation{
     font-size: 20px;
     color: black;
     display: block;
-    margin-left:18%;
-    margin-top: -90;
-    position: absolute;
+    margin-left:1%;
     }
     #reataurentadres{
     font-size: 18px;
     color:gray;
     display: block;
-    margin-left:18%;
-    margin-top: -53;
-    position: absolute;
+    margin-left:1%;
     }
     .detailsofrestarent{
     width:300;
     margin-left: 30px;
     text-align: left;
     }
+    .detailsofrestarent tr th{
+        padding:4px;
+    }
     /*footer CSS*/
     #footer{
-    height:120px;
+    height:145px;
     width:100%;
     margin-top: 5%;
-    background-color:#e28b62
+    background-color:#ce0505;
     }
     #footText{
+    color:white;
     text-align: center;
+    padding-top:1%;
     }
     .footDiv{
+    color:white;
     height:70px;
     width:33%;
     float: left;
-    border-right: 2px solid black;
+    border-right: 2px solid white;
     text-align: center;
     }
     .noBorder{
